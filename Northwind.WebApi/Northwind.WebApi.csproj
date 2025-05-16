@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Northwind.Models\Northwind.Models.csproj" />
+		<ProjectReference Include="..\Northwind.UnitOfWork\Northwind.UnitOfWork.csproj" />
+		<ProjectReference Include="..\Northwind.DataAccess\Northwind.DataAccess.csproj" />
+	</ItemGroup>
+</Project>
